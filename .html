@@ -4,20 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Caleb Yegon | IT Expert & Online Writer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Caleb Yegon - IT Expert & Online Writer crafting digital solutions and engaging content.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- Dark Mode Toggle -->
-<button id="darkModeToggle">🌙</button>
+<button id="darkModeToggle" aria-label="Toggle Dark Mode">🌙</button>
 
 <!-- Hero Section -->
 <header class="hero">
   <div class="container hero-content">
+    <img src="https://i.postimg.cc/k6Lj2Dx1/82563546.png" alt="Caleb Yegon" class="profile-photo">
     <h1>Hello, I'm <span>Caleb Yegon</span></h1>
     <p>IT Expert & Online Writer crafting digital solutions and engaging content.</p>
     <a href="#projects" class="btn">View My Work</a>
+  </div>
+  <div class="scroll-indicator">
+    <span></span>
   </div>
 </header>
 
@@ -42,32 +49,32 @@
     <h2>My Work</h2>
     <div class="projects-grid">
       <div class="project-card">
-        <img src="project1.jpg" alt="E-Commerce Platform">
+        <img src="project1.jpg" alt="E-Commerce Platform" onerror="this.style.display='none'">
         <h3>E-Commerce Platform</h3>
         <p>Developed a modern e-commerce platform with React and Stripe integration for seamless online shopping experiences.</p>
       </div>
       <div class="project-card">
-        <img src="project2.jpg" alt="Portfolio Website">
+        <img src="project2.jpg" alt="Portfolio Website" onerror="this.style.display='none'">
         <h3>Portfolio Website</h3>
         <p>Designed and implemented a responsive portfolio website showcasing IT solutions and writing projects.</p>
       </div>
       <div class="project-card">
-        <img src="project3.jpg" alt="Branding & Illustration">
+        <img src="project3.jpg" alt="Branding & Illustration" onerror="this.style.display='none'">
         <h3>Branding & Illustration</h3>
         <p>Created branding and visual assets for tech startups, combining creativity with technical insight.</p>
       </div>
       <div class="project-card">
-        <img src="project4.jpg" alt="Mobile App UI/UX">
+        <img src="project4.jpg" alt="Mobile App UI/UX" onerror="this.style.display='none'">
         <h3>Mobile App UI/UX</h3>
         <p>Designed intuitive mobile interfaces with Figma, improving usability and user engagement.</p>
       </div>
       <div class="project-card">
-        <img src="project5.jpg" alt="Landing Page Optimization">
+        <img src="project5.jpg" alt="Landing Page Optimization" onerror="this.style.display='none'">
         <h3>Landing Page Optimization</h3>
         <p>Redesigned marketing pages to increase conversions by 45% using analytics-driven design.</p>
       </div>
       <div class="project-card">
-        <img src="project6.jpg" alt="Interactive Web Dashboard">
+        <img src="project6.jpg" alt="Interactive Web Dashboard" onerror="this.style.display='none'">
         <h3>Interactive Web Dashboard</h3>
         <p>Developed a data visualization dashboard for real-time IT monitoring and reporting.</p>
       </div>
@@ -100,7 +107,7 @@
       <h4>- Jane Doe, TechCorp</h4>
     </div>
     <div class="testimonial-card">
-      <p>"Outstanding content and technical expertise. Caleb’s work is top-notch!"</p>
+      <p>"Outstanding content and technical expertise. Caleb's work is top-notch!"</p>
       <h4>- John Smith, DesignHub</h4>
     </div>
   </div>
@@ -137,16 +144,16 @@
     <a href="mailto:youremail@example.com" class="btn">Email Me</a>
     <a href="Caleb_Yegon_Resume.pdf" class="btn" download>Download Resume</a>
     <div class="socials">
-      <a href="#" target="_blank">LinkedIn</a>
-      <a href="#" target="_blank">GitHub</a>
-      <a href="#" target="_blank">Medium</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Medium</a>
     </div>
   </div>
 </section>
 
 <!-- Footer -->
 <footer>
-  <p>© 2026 Caleb Yegon. All rights reserved.</p>
+  <p>&copy; 2026 Caleb Yegon. All rights reserved.</p>
 </footer>
 
 <script src="script.js"></script>
